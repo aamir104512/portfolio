@@ -114,8 +114,8 @@ export const projects: Project[] = [
         description:
           "View in-depth salon profiles with high-quality images, service lists, pricing, and customer reviews. Easily check availability, book appointments, and navigate to the salon with integrated maps for a seamless booking experience.",
         screenshots: [
-          morsetyImages.details.screen8,
           morsetyImages.details.screen1,
+          morsetyImages.details.screen8,
           morsetyImages.details.screen2,
           morsetyImages.details.screen3,
           morsetyImages.details.screen4,
