@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/motion";
 
-import myimage from "../assets/images/IMG_0980.jpg";
+import myimage from "@/assets/images/IMG_0980.jpg";
 
 export default function About() {
   return (
