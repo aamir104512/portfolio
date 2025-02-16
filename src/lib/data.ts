@@ -26,7 +26,7 @@ export const projects: Project[] = [
     skills: [
       "Firebase",
       "Payment Gateway",
-      "WebSockets",
+      "Web-Sockets",
       "Redux Toolkit",
       "Charts",
     ],
