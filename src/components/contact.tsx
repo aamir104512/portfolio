@@ -24,17 +24,31 @@ export default function Contact() {
           viewport={{ once: true }}
           className="flex justify-center gap-4 mb-8"
         >
-          <Button variant="outline" size="lg">
-            <Github className="mr-2 h-4 w-4" />
-            GitHub
+          <Button variant="outline" size="lg" asChild>
+            <a
+              href="https://github.com/aamir104512"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="mr-2 h-4 w-4" />
+              GitHub
+            </a>
           </Button>
-          <Button variant="outline" size="lg">
-            <Linkedin className="mr-2 h-4 w-4" />
-            LinkedIn
+          <Button variant="outline" size="lg" asChild>
+            <a
+              href="https://www.linkedin.com/in/hello-aamir/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Linkedin className="mr-2 h-4 w-4" />
+              LinkedIn
+            </a>
           </Button>
-          <Button variant="outline" size="lg">
-            <Mail className="mr-2 h-4 w-4" />
-            Email
+          <Button variant="outline" size="lg" asChild>
+            <a href="mailto:aamir.dev02@gmail.com">
+              <Mail className="mr-2 h-4 w-4" />
+              Email
+            </a>
           </Button>
         </motion.div>
 
