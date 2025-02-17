@@ -1,17 +1,99 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { SiReact, SiTypescript, SiFirebase, SiRedux, SiGraphql, SiAmazon } from "react-icons/si";
-
+import {
+  SiReact,
+  SiTypescript,
+  SiFirebase,
+  SiRedux,
+  SiWebpack,
+  SiGit,
+  SiExpo,
+  SiJavascript,
+  SiGithub,
+  SiGoogleplay,
+  SiAppstore,
+} from "react-icons/si";
 const skills = [
-  { icon: SiReact, name: "React Native", level: 95 },
-  { icon: SiTypescript, name: "TypeScript", level: 90 },
-  { icon: SiFirebase, name: "Firebase", level: 85 },
-  { icon: SiRedux, name: "Redux", level: 88 },
-  { icon: SiGraphql, name: "GraphQL", level: 80 },
-  { icon: SiAmazon, name: "AWS", level: 75 }
+  {
+    icon: SiReact,
+    name: "React Native",
+    level: 95,
+    description: "Core development, WebView integration",
+  },
+  {
+    icon: SiTypescript,
+    name: "TypeScript",
+    level: 90,
+    description: "Type-safe development",
+  },
+  {
+    icon: SiJavascript,
+    name: "JavaScript",
+    level: 92,
+    description: "ES6+ features",
+  },
+  {
+    icon: SiRedux,
+    name: "Redux & Redux Toolkit",
+    level: 88,
+    description: "Global state management",
+  },
+  {
+    icon: SiFirebase,
+    name: "Firebase",
+    level: 85,
+    description: "Push notifications, Social logins, Analytics, Crashlytics",
+  },
+  {
+    icon: SiWebpack,
+    name: "Real-time Solutions",
+    level: 85,
+    description: "WebSockets, Live data management",
+  },
+  {
+    icon: SiExpo,
+    name: "Expo",
+    level: 88,
+    description: "Managed workflow, Development & Deployment",
+  },
+  {
+    icon: SiGit,
+    name: "Version Control",
+    level: 90,
+    description: "Git, GitHub, Code management",
+  },
+  {
+    icon: SiReact,
+    name: "React Navigation",
+    level: 85,
+    description: "Navigation & Deep linking",
+  },
+  {
+    icon: SiGoogleplay,
+    name: "App Deployment",
+    level: 82,
+    description: "App Store & Play Store submissions",
+  },
+  {
+    icon: SiReact,
+    name: "Debugging and Optimization",
+    level: 85,
+    description: "Memory & Performance optimization",
+  },
+  {
+    icon: SiWebpack,
+    name: "API Integration",
+    level: 88,
+    description: "REST APIs, Payment gateways, Third-party services",
+  },
+  {
+    icon: SiReact,
+    name: "Testing",
+    level: 82,
+    description: "Jest, React Testing Library, E2E with Detox",
+  },
 ];
-
 export default function Skills() {
   return (
     <section id="skills" className="py-20 px-6">
