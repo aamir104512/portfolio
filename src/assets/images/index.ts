@@ -291,4 +291,84 @@ export const morsetyBusinessImages = {
     header: new URL("./morsety-business/splash/header.png", import.meta.url)
       .href,
   },
+  home: {
+    screen1: new URL("./morsety-business/home/1.png", import.meta.url).href,
+    screen2: new URL("./morsety-business/home/2.png", import.meta.url).href,
+    screen3: new URL("./morsety-business/home/3.png", import.meta.url).href,
+    screen4: new URL("./morsety-business/home/4.png", import.meta.url).href,
+  },
+  auth: {
+    screen1: new URL("./morsety-business/auth/1.png", import.meta.url).href,
+    screen2: new URL("./morsety-business/auth/2.png", import.meta.url).href,
+    screen3: new URL("./morsety-business/auth/3.png", import.meta.url).href,
+    screen4: new URL("./morsety-business/auth/4.png", import.meta.url).href,
+    screen5: new URL("./morsety-business/auth/5.png", import.meta.url).href,
+    screen6: new URL("./morsety-business/auth/6.png", import.meta.url).href,
+    screen7: new URL("./morsety-business/auth/7.png", import.meta.url).href,
+    screen8: new URL("./morsety-business/auth/8.png", import.meta.url).href,
+    screen9: new URL("./morsety-business/auth/9.png", import.meta.url).href,
+    screen10: new URL("./morsety-business/auth/10.png", import.meta.url).href,
+    screen11: new URL("./morsety-business/auth/11.png", import.meta.url).href,
+    screen12: new URL("./morsety-business/auth/12.png", import.meta.url).href,
+    screen13: new URL("./morsety-business/auth/13.png", import.meta.url).href,
+  },
+  branches: {
+    screen1: new URL("./morsety-business/branches/1.png", import.meta.url).href,
+    screen2: new URL("./morsety-business/branches/2.png", import.meta.url).href,
+    screen3: new URL("./morsety-business/branches/3.png", import.meta.url).href,
+    screen4: new URL("./morsety-business/branches/4.png", import.meta.url).href,
+    screen5: new URL("./morsety-business/branches/5.png", import.meta.url).href,
+    screen6: new URL("./morsety-business/branches/6.png", import.meta.url).href,
+    screen7: new URL("./morsety-business/branches/7.png", import.meta.url).href,
+    screen8: new URL("./morsety-business/branches/8.png", import.meta.url).href,
+    screen9: new URL("./morsety-business/branches/9.png", import.meta.url).href,
+    screen10: new URL("./morsety-business/branches/10.png", import.meta.url)
+      .href,
+    screen11: new URL("./morsety-business/branches/11.png", import.meta.url)
+      .href,
+    screen12: new URL("./morsety-business/branches/12.png", import.meta.url)
+      .href,
+    screen13: new URL("./morsety-business/branches/13.png", import.meta.url)
+      .href,
+    screen14: new URL("./morsety-business/branches/14.png", import.meta.url)
+      .href,
+    screen15: new URL("./morsety-business/branches/15.png", import.meta.url)
+      .href,
+    screen16: new URL("./morsety-business/branches/16.png", import.meta.url)
+      .href,
+    screen17: new URL("./morsety-business/branches/17.png", import.meta.url)
+      .href,
+    screen18: new URL("./morsety-business/branches/18.png", import.meta.url)
+      .href,
+    screen19: new URL("./morsety-business/branches/19.png", import.meta.url)
+      .href,
+    screen20: new URL("./morsety-business/branches/20.png", import.meta.url)
+      .href,
+    screen21: new URL("./morsety-business/branches/21.png", import.meta.url)
+      .href,
+    screen22: new URL("./morsety-business/branches/22.png", import.meta.url)
+      .href,
+  },
+  account: {
+    screen1: new URL("./morsety-business/account/1.png", import.meta.url).href,
+    screen2: new URL("./morsety-business/account/2.png", import.meta.url).href,
+    screen3: new URL("./morsety-business/account/3.png", import.meta.url).href,
+    screen4: new URL("./morsety-business/account/4.png", import.meta.url).href,
+    screen5: new URL("./morsety-business/account/5.png", import.meta.url).href,
+    screen6: new URL("./morsety-business/account/6.png", import.meta.url).href,
+    screen7: new URL("./morsety-business/account/7.png", import.meta.url).href,
+  },
+  bookings: {
+    screen1: new URL("./morsety-business/bookings/1.png", import.meta.url).href,
+    screen2: new URL("./morsety-business/bookings/2.png", import.meta.url).href,
+    screen3: new URL("./morsety-business/bookings/3.png", import.meta.url).href,
+    screen4: new URL("./morsety-business/bookings/4.png", import.meta.url).href,
+    screen5: new URL("./morsety-business/bookings/5.png", import.meta.url).href,
+    screen6: new URL("./morsety-business/bookings/6.png", import.meta.url).href,
+    screen7: new URL("./morsety-business/bookings/7.png", import.meta.url).href,
+    screen8: new URL("./morsety-business/bookings/8.png", import.meta.url).href,
+    screen9: new URL("./morsety-business/bookings/9.png", import.meta.url).href,
+    screen10: new URL("./morsety-business/bookings/10.png", import.meta.url)
+      .href,
+  },
 };
