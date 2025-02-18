@@ -3,6 +3,7 @@ import {
   carAdvisersImages,
   morsetyImages,
   morsetyBusinessImages,
+  shipSmart,
 } from "@/assets/images";
 
 interface ProjectModule {
@@ -411,6 +412,153 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: "ShipSmart",
+    description:
+      "A powerful shipment and package management app designed for seamless logistics. Track and manage incoming and outgoing shipments via boats or planes, scan barcodes and QR codes, and stay updated with real-time shipment status. Built with React Native Expo, TypeScript, and Redux Toolkit, featuring WebSockets for live updates and an intuitive interface for efficient package handling.",
+    image: shipSmart.splash.header,
+    skills: ["Expo", "Expo Router", "Redux Toolkit", "Social Logins"],
+    modules: [
+      {
+        title: "Auth",
+        description:
+          "Secure and seamless authentication with a password strength meter, real-time validations, and Google login integration. Ensuring a smooth onboarding experience with strong security measures for hassle-free access to the ShipSmart platform.",
+        screenshots: [
+          shipSmart.auth.screen3,
+          shipSmart.auth.screen4,
+          shipSmart.auth.screen5,
+          shipSmart.auth.screen6,
+          shipSmart.auth.screen7,
+          shipSmart.auth.screen8,
+          shipSmart.auth.screen9,
+          shipSmart.auth.screen10,
+          shipSmart.auth.screen11,
+          shipSmart.auth.screen12,
+          shipSmart.auth.screen13,
+          shipSmart.auth.screen14,
+          shipSmart.auth.screen15,
+          shipSmart.auth.screen16,
+          shipSmart.auth.screen17,
+          shipSmart.auth.screen18,
+          shipSmart.auth.screen19,
+          shipSmart.auth.screen1,
+          shipSmart.auth.screen2,
+        ],
+      },
+      {
+        title: "Shipments",
+        description:
+          "Easily track and manage your shipments with real-time status updates. Monitor shipments at every stage, from packing and transit to delivery. View detailed shipment information, including origin, transport mode, and estimated arrival. Add new shipments, edit details, and delete records effortlessly for complete control over your logistics.",
+        screenshots: [
+          shipSmart.shipments.screen1,
+          shipSmart.shipments.screen2,
+          shipSmart.shipments.screen3,
+          shipSmart.shipments.screen4,
+          shipSmart.shipments.screen5,
+          shipSmart.shipments.screen6,
+          shipSmart.shipments.screen7,
+          shipSmart.shipments.screen8,
+          shipSmart.shipments.screen9,
+          shipSmart.shipments.screen10,
+          shipSmart.shipments.screen11,
+          shipSmart.shipments.screen12,
+          shipSmart.shipments.screen13,
+          shipSmart.shipments.screen14,
+          shipSmart.shipments.screen15,
+          shipSmart.shipments.screen16,
+        ],
+      },
+      {
+        title: "Packages",
+        description:
+          "Stay in control of your packages with a comprehensive tracking system. View, add, edit, and delete packages while monitoring their real-time status, from processing and transit to delivery. Get detailed insights into each package.",
+        screenshots: [
+          shipSmart.packages.screen1,
+          shipSmart.packages.screen2,
+          shipSmart.packages.screen3,
+          shipSmart.packages.screen4,
+          shipSmart.packages.screen5,
+          shipSmart.packages.screen6,
+          shipSmart.packages.screen7,
+          shipSmart.packages.screen8,
+          shipSmart.packages.screen9,
+          shipSmart.packages.screen10,
+          shipSmart.packages.screen11,
+          shipSmart.packages.screen12,
+          shipSmart.packages.screen13,
+          shipSmart.packages.screen14,
+          shipSmart.packages.screen15,
+          shipSmart.packages.screen16,
+        ],
+      },
+      {
+        title: "Addresses",
+        description:
+          "Easily manage your saved addresses for quick and hassle-free shipments. Add, edit, and delete addresses while organizing them with advanced filtering options. Ensure accurate deliveries by storing multiple addresses for a seamless shipping experience.",
+        screenshots: [
+          shipSmart.addresses.screen1,
+          shipSmart.addresses.screen2,
+          shipSmart.addresses.screen3,
+        ],
+      },
+      {
+        title: "Admin Shipments",
+        description:
+          "Streamline shipment management with real-time tracking and barcode scanning. Admins can view, edit, and update shipment statuses across different stages, from processing to final delivery. Quickly scan package barcodes for efficient tracking, verify shipment details, and ensure smooth logistics operations with a powerful shipment management system.",
+        screenshots: [
+          shipSmart.adminShipments.screen1,
+          shipSmart.adminShipments.screen2,
+          shipSmart.adminShipments.screen3,
+          shipSmart.adminShipments.screen4,
+          shipSmart.adminShipments.screen5,
+          shipSmart.adminShipments.screen6,
+          shipSmart.adminShipments.screen7,
+          shipSmart.adminShipments.screen8,
+          shipSmart.adminShipments.screen9,
+          shipSmart.adminShipments.screen10,
+          shipSmart.adminShipments.screen11,
+        ],
+      },
+      {
+        title: "Admin Packages",
+        description:
+          "Efficiently manage and monitor all packages with advanced filtering options. Admins can view package details, track their status, and sort shipments based on different criteria, ensuring smooth logistics operations and quick access to essential package information.",
+        screenshots: [
+          shipSmart.adminPackages.screen1,
+          shipSmart.adminPackages.screen2,
+          shipSmart.adminPackages.screen3,
+        ],
+      },
+      {
+        title: "Inventory",
+        description:
+          "Keep track of all shipments and packages with a comprehensive inventory management system. View detailed shipment and package statuses, including confirmation status and transit progress. Quickly scan barcodes to update records, verify shipments, and maintain accurate inventory logs with a structured list view for efficient logistics management.",
+        screenshots: [
+          shipSmart.inventory.screen1,
+          shipSmart.inventory.screen2,
+          shipSmart.inventory.screen3,
+          shipSmart.inventory.screen4,
+          shipSmart.inventory.screen5,
+          shipSmart.inventory.screen6,
+          shipSmart.inventory.screen7,
+        ],
+      },
+      {
+        title: "Account",
+        description:
+          "Manage your account with ease. View and update personal details, billing information, and security settings. Change passwords, update contact details, and ensure your account is always up to date for a seamless administrative experience.",
+        screenshots: [
+          shipSmart.account.screen1,
+          shipSmart.account.screen2,
+          shipSmart.account.screen3,
+          shipSmart.account.screen4,
+          shipSmart.account.screen5,
+          shipSmart.account.screen6,
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "Morsety Business",
     description:
       "A salon management app for handling appointments, services, and product sales, with a dedicated tablet mode. Includes Google Maps integration, social logins, real-time updates, and payment processing. Built with React Native, TypeScript, Redux Toolkit, Google Maps and WebSockets.",

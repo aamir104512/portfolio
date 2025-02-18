@@ -372,3 +372,117 @@ export const morsetyBusinessImages = {
       .href,
   },
 };
+
+// Shipsmart App
+export const shipSmart = {
+  splash: {
+    header: new URL("./shipsmart/shipsmartHeader.png", import.meta.url).href,
+  },
+  auth: {
+    screen1: new URL("./shipsmart/auth/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/auth/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/auth/3.png", import.meta.url).href,
+    screen4: new URL("./shipsmart/auth/4.png", import.meta.url).href,
+    screen5: new URL("./shipsmart/auth/5.png", import.meta.url).href,
+    screen6: new URL("./shipsmart/auth/6.png", import.meta.url).href,
+    screen7: new URL("./shipsmart/auth/7.png", import.meta.url).href,
+    screen8: new URL("./shipsmart/auth/8.png", import.meta.url).href,
+    screen9: new URL("./shipsmart/auth/9.png", import.meta.url).href,
+    screen10: new URL("./shipsmart/auth/10.png", import.meta.url).href,
+    screen11: new URL("./shipsmart/auth/11.png", import.meta.url).href,
+    screen12: new URL("./shipsmart/auth/12.png", import.meta.url).href,
+    screen13: new URL("./shipsmart/auth/13.png", import.meta.url).href,
+    screen14: new URL("./shipsmart/auth/14.png", import.meta.url).href,
+    screen15: new URL("./shipsmart/auth/15.png", import.meta.url).href,
+    screen16: new URL("./shipsmart/auth/16.png", import.meta.url).href,
+    screen17: new URL("./shipsmart/auth/17.png", import.meta.url).href,
+    screen18: new URL("./shipsmart/auth/18.png", import.meta.url).href,
+    screen19: new URL("./shipsmart/auth/19.png", import.meta.url).href,
+  },
+  shipments: {
+    screen1: new URL("./shipsmart/user-shipments/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/user-shipments/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/user-shipments/3.png", import.meta.url).href,
+    screen4: new URL("./shipsmart/user-shipments/4.png", import.meta.url).href,
+    screen5: new URL("./shipsmart/user-shipments/5.png", import.meta.url).href,
+    screen6: new URL("./shipsmart/user-shipments/6.png", import.meta.url).href,
+    screen7: new URL("./shipsmart/user-shipments/7.png", import.meta.url).href,
+    screen8: new URL("./shipsmart/user-shipments/8.png", import.meta.url).href,
+    screen9: new URL("./shipsmart/user-shipments/9.png", import.meta.url).href,
+    screen10: new URL("./shipsmart/user-shipments/10.png", import.meta.url)
+      .href,
+    screen11: new URL("./shipsmart/user-shipments/11.png", import.meta.url)
+      .href,
+    screen12: new URL("./shipsmart/user-shipments/12.png", import.meta.url)
+      .href,
+    screen13: new URL("./shipsmart/user-shipments/13.png", import.meta.url)
+      .href,
+    screen14: new URL("./shipsmart/user-shipments/14.png", import.meta.url)
+      .href,
+    screen15: new URL("./shipsmart/user-shipments/15.png", import.meta.url)
+      .href,
+    screen16: new URL("./shipsmart/user-shipments/16.png", import.meta.url)
+      .href,
+  },
+  packages: {
+    screen1: new URL("./shipsmart/user-packages/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/user-packages/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/user-packages/3.png", import.meta.url).href,
+    screen4: new URL("./shipsmart/user-packages/4.png", import.meta.url).href,
+    screen5: new URL("./shipsmart/user-packages/5.png", import.meta.url).href,
+    screen6: new URL("./shipsmart/user-packages/6.png", import.meta.url).href,
+    screen7: new URL("./shipsmart/user-packages/7.png", import.meta.url).href,
+    screen8: new URL("./shipsmart/user-packages/8.png", import.meta.url).href,
+    screen9: new URL("./shipsmart/user-packages/9.png", import.meta.url).href,
+    screen10: new URL("./shipsmart/user-packages/10.png", import.meta.url).href,
+    screen11: new URL("./shipsmart/user-packages/11.png", import.meta.url).href,
+    screen12: new URL("./shipsmart/user-packages/12.png", import.meta.url).href,
+    screen13: new URL("./shipsmart/user-packages/13.png", import.meta.url).href,
+    screen14: new URL("./shipsmart/user-packages/14.png", import.meta.url).href,
+    screen15: new URL("./shipsmart/user-packages/15.png", import.meta.url).href,
+    screen16: new URL("./shipsmart/user-packages/16.png", import.meta.url).href,
+    screen17: new URL("./shipsmart/user-packages/17.png", import.meta.url).href,
+  },
+  addresses: {
+    screen1: new URL("./shipsmart/addresses/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/addresses/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/addresses/3.png", import.meta.url).href,
+  },
+  adminShipments: {
+    screen1: new URL("./shipsmart/admin-shipments/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/admin-shipments/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/admin-shipments/3.png", import.meta.url).href,
+    screen4: new URL("./shipsmart/admin-shipments/4.png", import.meta.url).href,
+    screen5: new URL("./shipsmart/admin-shipments/5.png", import.meta.url).href,
+    screen6: new URL("./shipsmart/admin-shipments/6.png", import.meta.url).href,
+    screen7: new URL("./shipsmart/admin-shipments/7.png", import.meta.url).href,
+    screen8: new URL("./shipsmart/admin-shipments/8.png", import.meta.url).href,
+    screen9: new URL("./shipsmart/admin-shipments/9.png", import.meta.url).href,
+    screen10: new URL("./shipsmart/admin-shipments/10.png", import.meta.url)
+      .href,
+    screen11: new URL("./shipsmart/admin-shipments/11.png", import.meta.url)
+      .href,
+  },
+  adminPackages: {
+    screen1: new URL("./shipsmart/admin-packages/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/admin-packages/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/admin-packages/3.png", import.meta.url).href,
+  },
+  inventory: {
+    screen1: new URL("./shipsmart/inventory/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/inventory/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/inventory/3.png", import.meta.url).href,
+    screen4: new URL("./shipsmart/inventory/4.png", import.meta.url).href,
+    screen5: new URL("./shipsmart/inventory/5.png", import.meta.url).href,
+    screen6: new URL("./shipsmart/inventory/6.png", import.meta.url).href,
+    screen7: new URL("./shipsmart/inventory/7.png", import.meta.url).href,
+  },
+  account: {
+    screen1: new URL("./shipsmart/account/1.png", import.meta.url).href,
+    screen2: new URL("./shipsmart/account/2.png", import.meta.url).href,
+    screen3: new URL("./shipsmart/account/3.png", import.meta.url).href,
+    screen4: new URL("./shipsmart/account/4.png", import.meta.url).href,
+    screen5: new URL("./shipsmart/account/5.png", import.meta.url).href,
+    screen6: new URL("./shipsmart/account/6.png", import.meta.url).href,
+  },
+};
