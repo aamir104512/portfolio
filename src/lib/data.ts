@@ -4,6 +4,7 @@ import {
   morsetyImages,
   morsetyBusinessImages,
   shipSmart,
+  inspections,
 } from "@/assets/images";
 
 interface ProjectModule {
@@ -659,6 +660,75 @@ export const projects: Project[] = [
           morsetyBusinessImages.account.screen5,
           morsetyBusinessImages.account.screen6,
           morsetyBusinessImages.account.screen7,
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "CarAdvisers Inspections",
+    description:
+      "An advanced car inspection app for inspectors to assess vehicle conditions, covering interior, exterior, electronics, damages, and tires. Inspectors can view scheduled inspections, create new ones, and manage detailed criteria. Features include draft-saving, a session timer that pauses when the app is in the background, and structured data management.",
+    image: inspections.splash.header,
+    skills: ["React Native", "JavaScript", "Redux Toolkit", "Axios"],
+    modules: [
+      {
+        title: "Splash and Auth",
+        description:
+          "Simple login flow for inspectors to access their scheduled inspections.",
+        screenshots: [inspections.auth.screen1, inspections.auth.screen2],
+      },
+      {
+        title: "Home",
+        description:
+          "Inspectors can view their scheduled inspections at a glance. The home screen provides a clear list of assigned tasks with quick access to start, view, or manage inspections. Includes real-time updates, calendar integration, and easy navigation to streamline daily workflows.",
+        screenshots: [
+          inspections.home.screen1,
+          inspections.home.screen2,
+          inspections.home.screen3,
+          inspections.home.screen4,
+          inspections.home.screen5,
+        ],
+      },
+      {
+        title: "Create Inspection",
+        description:
+          "Easily initiate new vehicle inspections by entering user details and selecting the car to be inspected. Inspectors can efficiently record inspection points for interior, exterior, electronics, damages, tires, and more, with support for saving progress as a draft and resuming inspections seamlessly.",
+        screenshots: [
+          inspections.createInspection.screen1,
+          inspections.createInspection.screen2,
+          inspections.createInspection.screen3,
+          inspections.createInspection.screen4,
+          inspections.createInspection.screen5,
+          inspections.createInspection.screen6,
+          inspections.createInspection.screen7,
+          inspections.createInspection.screen8,
+          inspections.createInspection.screen9,
+        ],
+      },
+      {
+        title: "Inspection Menu",
+        description:
+          "Enable car inspectors to perform detailed vehicle inspections by selecting from multiple inspection categories, including interior, exterior, electronics, damages, tires, and more. The module supports adding notes, capturing images, and marking inspection points. Inspectors can review selections and submit the final inspection report, ensuring accurate and comprehensive vehicle assessments.",
+        screenshots: [
+          inspections.inspectionMenu.screen1,
+          inspections.inspectionMenu.screen2,
+          inspections.inspectionMenu.screen3,
+          inspections.inspectionMenu.screen4,
+          inspections.inspectionMenu.screen5,
+          inspections.inspectionMenu.screen6,
+          inspections.inspectionMenu.screen7,
+          inspections.inspectionMenu.screen8,
+          inspections.inspectionMenu.screen9,
+          inspections.inspectionMenu.screen10,
+          inspections.inspectionMenu.screen11,
+          inspections.inspectionMenu.screen12,
+          inspections.inspectionMenu.screen13,
+          inspections.inspectionMenu.screen14,
+          inspections.inspectionMenu.screen15,
+          inspections.inspectionMenu.screen16,
+          inspections.inspectionMenu.screen17,
+          inspections.inspectionMenu.screen18,
         ],
       },
     ],

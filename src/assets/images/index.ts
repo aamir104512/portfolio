@@ -486,3 +486,71 @@ export const shipSmart = {
     screen6: new URL("./shipsmart/account/6.png", import.meta.url).href,
   },
 };
+
+// CarAdvisers Inspection App
+export const inspections = {
+  splash: {
+    header: new URL("./caInspections/inspectionHeader.png", import.meta.url)
+      .href,
+  },
+  auth: {
+    screen1: new URL("./caInspections/auth/2.png", import.meta.url).href,
+    screen2: new URL("./caInspections/auth/1.png", import.meta.url).href,
+  },
+  home: {
+    screen1: new URL("./caInspections/home/1.png", import.meta.url).href,
+    screen2: new URL("./caInspections/home/2.png", import.meta.url).href,
+    screen3: new URL("./caInspections/home/3.png", import.meta.url).href,
+    screen4: new URL("./caInspections/home/4.png", import.meta.url).href,
+    screen5: new URL("./caInspections/home/5.png", import.meta.url).href,
+  },
+  createInspection: {
+    screen1: new URL("./caInspections/createInspection/1.png", import.meta.url)
+      .href,
+    screen2: new URL("./caInspections/createInspection/2.png", import.meta.url)
+      .href,
+    screen3: new URL("./caInspections/createInspection/3.png", import.meta.url)
+      .href,
+    screen4: new URL("./caInspections/createInspection/4.png", import.meta.url)
+      .href,
+    screen5: new URL("./caInspections/createInspection/5.png", import.meta.url)
+      .href,
+    screen6: new URL("./caInspections/createInspection/6.png", import.meta.url)
+      .href,
+    screen7: new URL("./caInspections/createInspection/7.png", import.meta.url)
+      .href,
+    screen8: new URL("./caInspections/createInspection/8.png", import.meta.url)
+      .href,
+    screen9: new URL("./caInspections/createInspection/9.png", import.meta.url)
+      .href,
+  },
+  inspectionMenu: {
+    screen1: new URL("./caInspections/inspections/1.png", import.meta.url).href,
+    screen2: new URL("./caInspections/inspections/2.png", import.meta.url).href,
+    screen3: new URL("./caInspections/inspections/3.png", import.meta.url).href,
+    screen4: new URL("./caInspections/inspections/4.png", import.meta.url).href,
+    screen5: new URL("./caInspections/inspections/5.png", import.meta.url).href,
+    screen6: new URL("./caInspections/inspections/6.png", import.meta.url).href,
+    screen7: new URL("./caInspections/inspections/7.png", import.meta.url).href,
+    screen8: new URL("./caInspections/inspections/8.png", import.meta.url).href,
+    screen9: new URL("./caInspections/inspections/9.png", import.meta.url).href,
+    screen10: new URL("./caInspections/inspections/10.png", import.meta.url)
+      .href,
+    screen11: new URL("./caInspections/inspections/11.png", import.meta.url)
+      .href,
+    screen12: new URL("./caInspections/inspections/12.png", import.meta.url)
+      .href,
+    screen13: new URL("./caInspections/inspections/13.png", import.meta.url)
+      .href,
+    screen14: new URL("./caInspections/inspections/14.png", import.meta.url)
+      .href,
+    screen15: new URL("./caInspections/inspections/15.png", import.meta.url)
+      .href,
+    screen16: new URL("./caInspections/inspections/16.png", import.meta.url)
+      .href,
+    screen17: new URL("./caInspections/inspections/17.png", import.meta.url)
+      .href,
+    screen18: new URL("./caInspections/inspections/18.png", import.meta.url)
+      .href,
+  },
+};
