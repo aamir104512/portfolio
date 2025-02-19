@@ -30,6 +30,7 @@ export const projects: Project[] = [
       "A cross-platform auto marketplace for buying, selling, and auctioning vehicles. Features real-time chat, bidding, advanced search, car inspections, multi-user roles, and payment integration. Built with React Native, Redux Toolkit, WebSockets, and Firebase.",
     image: carAdvisersImages.splash.header,
     skills: [
+      "JavaScript",
       "Firebase",
       "Payment Gateway",
       "Web-Sockets",
@@ -296,6 +297,7 @@ export const projects: Project[] = [
       "A salon booking app for scheduling beauty services and purchasing related products. Features Google Maps integration, social logins, real-time notifications, and secure payments. Built with React Native, TypeScript, Redux Toolkit, Google Maps, and WebSockets.",
     image: morsetyImages.splash.header,
     skills: [
+      "TypeScript",
       "Redux Toolkit",
       "Push Notifications",
       "Social Logins",
@@ -417,7 +419,13 @@ export const projects: Project[] = [
     description:
       "A powerful shipment and package management app designed for seamless logistics. Track and manage incoming and outgoing shipments via boats or planes, scan barcodes and QR codes, and stay updated with real-time shipment status. Built with React Native Expo, TypeScript, and Redux Toolkit, featuring WebSockets for live updates and an intuitive interface for efficient package handling.",
     image: shipSmart.splash.header,
-    skills: ["Expo", "Expo Router", "Redux Toolkit", "Social Logins"],
+    skills: [
+      "Expo",
+      "TypeScript",
+      "Expo Router",
+      "Redux Toolkit",
+      "Social Logins",
+    ],
     modules: [
       {
         title: "Auth",
@@ -565,6 +573,7 @@ export const projects: Project[] = [
       "A salon management app for handling appointments, services, and product sales, with a dedicated tablet mode. Includes Google Maps integration, social logins, real-time updates, and payment processing. Built with React Native, TypeScript, Redux Toolkit, Google Maps and WebSockets.",
     image: morsetyBusinessImages.splash.header,
     skills: [
+      "TypeScript",
       "Redux Toolkit",
       "Push Notifications",
       "Social Logins",
