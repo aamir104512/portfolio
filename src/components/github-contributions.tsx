@@ -12,7 +12,7 @@ export default function GitHubContributions() {
   const graphUrl = `https://ghchart.rshah.org/${graphColor}/aamir104512`;
 
   return (
-    <section className="py-20 px-6 bg-muted/50">
+    <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <motion.div
           variants={fadeIn("down")}
