@@ -552,5 +552,7 @@ export const inspections = {
       .href,
     screen18: new URL("./caInspections/inspections/18.png", import.meta.url)
       .href,
+    screen19: new URL("./caInspections/inspections/19.png", import.meta.url)
+      .href,
   },
 };

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Github, Menu } from "lucide-react";
 import ThemeToggle from "./theme-toggle";
 
 const navItems = [
@@ -48,11 +48,42 @@ export default function Nav() {
                 {item.label}
               </Button>
             ))}
+
+            <Button
+              variant="default"
+              className="hover:scale-105 transition-transform"
+              asChild
+            >
+              <a
+                href="https://github.com/aamir104512"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Github className="h-5 w-5" />
+                <span>GitHub</span>
+              </a>
+            </Button>
             <ThemeToggle />
           </div>
 
           {/* Mobile Navigation */}
           <div className="md:hidden flex items-center gap-2">
+            <Button
+              variant="default"
+              className="hover:scale-105 transition-transform"
+              asChild
+            >
+              <a
+                href="https://github.com/aamir104512"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Github className="h-5 w-5" />
+                <span>GitHub</span>
+              </a>
+            </Button>
             <ThemeToggle />
             <Sheet open={open} onOpenChange={setOpen}>
               <SheetTrigger asChild>

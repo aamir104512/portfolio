@@ -724,6 +724,7 @@ export const projects: Project[] = [
           inspections.inspectionMenu.screen2,
           inspections.inspectionMenu.screen3,
           inspections.inspectionMenu.screen4,
+          inspections.inspectionMenu.screen19,
           inspections.inspectionMenu.screen5,
           inspections.inspectionMenu.screen6,
           inspections.inspectionMenu.screen7,
