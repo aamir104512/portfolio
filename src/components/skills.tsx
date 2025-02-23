@@ -120,11 +120,11 @@ export default function Skills() {
             >
               <Card>
                 <CardContent className="p-6">
-                  <div className="flex items-center gap-4 mb-4">
+                  <div className="flex items-center gap-4 ">
                     <skill.icon className="h-8 w-8 text-primary" />
                     <h3 className="text-xl font-semibold">{skill.name}</h3>
                   </div>
-                  <div className="w-full bg-muted rounded-full h-2.5">
+                  {/* <div className="w-full bg-muted rounded-full h-2.5">
                     <motion.div
                       className="bg-primary h-2.5 rounded-full"
                       initial={{ width: 0 }}
@@ -132,7 +132,7 @@ export default function Skills() {
                       transition={{ duration: 1, ease: "easeOut" }}
                       viewport={{ once: true }}
                     />
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             </motion.div>
