@@ -8,13 +8,19 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
+import { FaAppStore, FaGooglePlay } from "react-icons/fa";
 
 export default function ProjectsPage() {
   const [, setLocation] = useLocation();
   const [loadedImages, setLoadedImages] = useState<Record<string, boolean>>({});
 
   const handleImageLoad = (imageUrl: string) => {
-    setLoadedImages(prev => ({ ...prev, [imageUrl]: true }));
+    setLoadedImages((prev) => ({ ...prev, [imageUrl]: true }));
+  };
+
+  const handleStoreClick = (e: React.MouseEvent, link: string) => {
+    e.stopPropagation();
+    window.open(link, "_blank");
   };
 
   return (
@@ -52,8 +58,8 @@ export default function ProjectsPage() {
                   {!loadedImages[project.image] && (
                     <Skeleton className="absolute inset-0 w-full h-48" />
                   )}
-                  <img 
-                    src={project.image} 
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-48 object-cover"
                     loading="lazy"
@@ -63,10 +69,12 @@ export default function ProjectsPage() {
                 </CardHeader>
                 <CardContent className="p-6 flex flex-col flex-grow">
                   <CardTitle className="mb-2">{project.title}</CardTitle>
-                  <p className="text-muted-foreground mb-4 flex-grow">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.skills.map(skill => (
-                      <span 
+                  <p className="text-muted-foreground mb-4 flex-grow">
+                    {project.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.skills.map((skill) => (
+                      <span
                         key={skill}
                         className="px-2 py-1 bg-primary/10 text-primary rounded text-sm"
                       >
@@ -74,6 +82,36 @@ export default function ProjectsPage() {
                       </span>
                     ))}
                   </div>
+
+                  {/* Add store links */}
+                  {(project.appStoreLink || project.playStoreLink) && (
+                    <div className="flex items-center gap-3 pt-3 border-t">
+                      {project.appStoreLink && (
+                        <button
+                          onClick={(e) =>
+                            handleStoreClick(e, project.appStoreLink!)
+                          }
+                          className="flex items-center justify-center gap-2 px-3 py-1.5 bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-white rounded-md transition-colors w-full"
+                        >
+                          <FaAppStore className="w-4 h-4" />
+                          <span className="text-sm font-medium">App Store</span>
+                        </button>
+                      )}
+                      {project.playStoreLink && (
+                        <button
+                          onClick={(e) =>
+                            handleStoreClick(e, project.playStoreLink!)
+                          }
+                          className="flex items-center justify-center gap-2 px-3 py-1.5 bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 text-white rounded-md transition-colors w-full"
+                        >
+                          <FaGooglePlay className="w-4 h-4" />
+                          <span className="text-sm font-medium">
+                            Play Store
+                          </span>
+                        </button>
+                      )}
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>
