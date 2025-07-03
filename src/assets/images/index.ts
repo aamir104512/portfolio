@@ -556,3 +556,39 @@ export const inspections = {
       .href,
   },
 };
+
+export const yappedImages = {
+  splash: {
+    header: new URL("./yapped/yappedHeader.png", import.meta.url).href,
+  },
+  auth: {
+    screen1: new URL("./yapped/auth/1.png", import.meta.url).href,
+    screen2: new URL("./yapped/auth/2.png", import.meta.url).href,
+    screen3: new URL("./yapped/auth/3.png", import.meta.url).href,
+    screen4: new URL("./yapped/auth/4.png", import.meta.url).href,
+  },
+  bookcreation: {
+    screen1: new URL("./yapped/create-event/1.png", import.meta.url).href,
+    screen2: new URL("./yapped/create-event/2.png", import.meta.url).href,
+    screen3: new URL("./yapped/create-event/3.png", import.meta.url).href,
+    screen4: new URL("./yapped/create-event/4.png", import.meta.url).href,
+    screen5: new URL("./yapped/create-event/5.png", import.meta.url).href,
+  },
+  home: {
+    screen1: new URL("./yapped/home/1.png", import.meta.url).href,
+    screen2: new URL("./yapped/home/2.png", import.meta.url).href,
+    screen3: new URL("./yapped/home/3.png", import.meta.url).href,
+    screen4: new URL("./yapped/home/4.png", import.meta.url).href,
+    screen5: new URL("./yapped/home/5.png", import.meta.url).href,
+    screen6: new URL("./yapped/home/6.png", import.meta.url).href,
+    screen7: new URL("./yapped/home/7.png", import.meta.url).href,
+    screen8: new URL("./yapped/home/8.png", import.meta.url).href,
+  },
+  account: {
+    screen1: new URL("./yapped/account/1.png", import.meta.url).href,
+    screen2: new URL("./yapped/account/2.png", import.meta.url).href,
+    screen3: new URL("./yapped/account/3.png", import.meta.url).href,
+    screen4: new URL("./yapped/account/4.png", import.meta.url).href,
+    screen5: new URL("./yapped/account/5.png", import.meta.url).href,
+  },
+};

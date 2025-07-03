@@ -5,6 +5,7 @@ import {
   morsetyBusinessImages,
   shipSmart,
   inspections,
+  yappedImages,
 } from "@/assets/images";
 
 interface ProjectModule {
@@ -751,6 +752,74 @@ export const projects: Project[] = [
           inspections.inspectionMenu.screen16,
           inspections.inspectionMenu.screen17,
           inspections.inspectionMenu.screen18,
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Yapped",
+    description:
+      "A social book reading and event management platform that connects readers through shared reading experiences. Features include creating and joining reading events, real-time discussions, user authentication, and profile management. Built with React Native, Expo, TypeScript, and Firebase.",
+    image: yappedImages.splash.header,
+    skills: [
+      "Expo",
+      "React Native",
+      "TypeScript",
+      "Expo Router",
+      "Redux Toolkit",
+      "Firebase",
+      "Social Authentication",
+    ],
+    modules: [
+      {
+        title: "Authentication",
+        description:
+          "Comprehensive authentication system with email/password login, and password recovery. Features secure account creation, email verification, and a seamless forgot password flow, ensuring a robust and user-friendly security experience.",
+        screenshots: [
+          yappedImages.auth.screen2,
+          yappedImages.auth.screen3,
+          yappedImages.auth.screen4,
+          yappedImages.auth.screen1,
+        ],
+      },
+      {
+        title: "Book Creation",
+        description:
+          "Intuitive interface for creating and managing reading events. Users can set up new books with details like title, description, start date, and member limits. Includes member filtering capabilities, ensuring efficient group formation while maintaining active user participation.",
+        screenshots: [
+          yappedImages.bookcreation.screen5,
+          yappedImages.bookcreation.screen2,
+          yappedImages.bookcreation.screen3,
+          yappedImages.bookcreation.screen4,
+          yappedImages.bookcreation.screen1,
+        ],
+      },
+      {
+        title: "Home Feed",
+        description:
+          "Dynamic home screen showcasing ongoing and upcoming reading events. Users can discover new books, browse trending events, and see activity from their network. Features infinite scrolling, real-time updates, and quick access to join or create new reading events.",
+        screenshots: [
+          yappedImages.home.screen1,
+          yappedImages.home.screen8,
+          yappedImages.home.screen7,
+          yappedImages.home.screen2,
+          yappedImages.home.screen3,
+          yappedImages.home.screen4,
+          yappedImages.home.screen5,
+          yappedImages.home.screen6,
+        ],
+      },
+      {
+        title: "User Profile",
+        description:
+          "Personalized profile management system where users can view their reading history, manage ongoing events, and customize their account settings. Includes features for editing profile information, changing passwords, and managing account preferences with a clean, intuitive interface.",
+        screenshots: [
+          yappedImages.account.screen5,
+          yappedImages.account.screen1,
+          yappedImages.account.screen2,
+          yappedImages.account.screen3,
+          yappedImages.account.screen4,
         ],
       },
     ],
