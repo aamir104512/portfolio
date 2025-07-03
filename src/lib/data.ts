@@ -784,18 +784,6 @@ export const projects: Project[] = [
         ],
       },
       {
-        title: "Book Creation",
-        description:
-          "Intuitive interface for creating and managing reading events. Users can set up new books with details like title, description, start date, and member limits. Includes member filtering capabilities, ensuring efficient group formation while maintaining active user participation.",
-        screenshots: [
-          yappedImages.bookcreation.screen5,
-          yappedImages.bookcreation.screen2,
-          yappedImages.bookcreation.screen3,
-          yappedImages.bookcreation.screen4,
-          yappedImages.bookcreation.screen1,
-        ],
-      },
-      {
         title: "Home Feed",
         description:
           "Dynamic home screen showcasing ongoing and upcoming reading events. Users can discover new books, browse trending events, and see activity from their network. Features infinite scrolling, real-time updates, and quick access to join or create new reading events.",
@@ -808,6 +796,18 @@ export const projects: Project[] = [
           yappedImages.home.screen4,
           yappedImages.home.screen5,
           yappedImages.home.screen6,
+        ],
+      },
+      {
+        title: "Book Creation",
+        description:
+          "Intuitive interface for creating and managing reading events. Users can set up new books with details like title, description, start date, and member limits. Includes member filtering capabilities, ensuring efficient group formation while maintaining active user participation.",
+        screenshots: [
+          yappedImages.bookcreation.screen5,
+          yappedImages.bookcreation.screen2,
+          yappedImages.bookcreation.screen3,
+          yappedImages.bookcreation.screen4,
+          yappedImages.bookcreation.screen1,
         ],
       },
       {
