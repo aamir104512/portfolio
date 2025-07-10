@@ -42,7 +42,7 @@ export default function About() {
             <p className="text-lg text-muted-foreground">
               Hi, I'm <span className="font-semibold">Muhammad Aamir</span>, a
               passionate{" "}
-              <span className="font-semibold">React Native developer</span>
+              <span className="font-semibold">React Native developer </span>
               dedicated to building high-performance mobile applications. With{" "}
               <span className="font-semibold">
                 over 2.5 years of experience
