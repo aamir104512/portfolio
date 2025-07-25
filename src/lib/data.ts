@@ -430,6 +430,8 @@ export const projects: Project[] = [
     image: shipSmart.splash.header,
     playStoreLink:
       "https://play.google.com/store/apps/details?id=com.goshipsmart.ssmapp&hl=en_GB",
+    appStoreLink:
+      "https://apps.apple.com/us/app/shipsmart-save-on-shipping/id6742982591",
     skills: [
       "Expo",
       "TypeScript",
