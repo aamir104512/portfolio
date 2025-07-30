@@ -305,6 +305,7 @@ export const projects: Project[] = [
     image: morsetyImages.splash.header,
     playStoreLink:
       "https://play.google.com/store/apps/details?id=com.morsety.customers",
+    appStoreLink: "https://apps.apple.com/gb/app/morsety/id6474122496",
     skills: [
       "TypeScript",
       "Redux Toolkit",
@@ -587,6 +588,7 @@ export const projects: Project[] = [
     image: morsetyBusinessImages.splash.header,
     playStoreLink:
       "https://play.google.com/store/apps/details?id=com.morsety.business",
+    appStoreLink: "https://apps.apple.com/gb/app/morsety-business/id6476326034",
     skills: [
       "TypeScript",
       "Redux Toolkit",
