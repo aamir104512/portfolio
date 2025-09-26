@@ -45,7 +45,7 @@ export default function About() {
               <span className="font-semibold">React Native developer </span>
               dedicated to building high-performance mobile applications. With{" "}
               <span className="font-semibold">
-                over 2.5 years of experience
+                around 3 years of experience
               </span>
               , I specialize in developing seamless, scalable, and feature-rich
               apps for <span className="font-semibold">Android & iOS</span>.
